@@ -1,4 +1,4 @@
-//Copy contents of one student to another student
+//Copy contents of one student to another
 #include<iostream>
 using namespace std;
 struct Student
@@ -12,9 +12,9 @@ Student copy(Student x)
 }
 main()
 {
-	cout<<"Enter rollno. & marks of student1\n";
+	cout<<"Enter rollno & marks of student1: \n";
 	cin>>s1.rollno>>s1.marks;
 	copy(s1);
-	cout<<"Final showcase\n";
-	cout<<"Student2 rollno.: "<<s2.rollno<<"\t"<<"marks= "<<s2.marks;
+	cout<<"Student details copied\n";
+	cout<<"Student2 rollno: "<<s2.rollno<<"\t"<<"marks: "<<s2.marks;
 }
